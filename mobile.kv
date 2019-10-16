@@ -1,5 +1,11 @@
+#:kivy 1.11.1
 <MobileGame>
     canvas:
         Rectangle:
             pos:self.center_x-500,10
             size:1000,self.height
+
+    Button:
+        text: 'Stats'
+        on_press: print("ouch! More gently please")
+        on_release: print("ahhh")
