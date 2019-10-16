@@ -9,4 +9,4 @@ class MobileApp(App):
         return MobileGame()
 
 if __name__=='__main__':
-    MobileGame.run()
+    MobileApp().run()
